@@ -1,0 +1,22 @@
+{
+  "name": "asclepius_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvianta/asclepius-api-dicoding.git"
+  },
+  "author": "arvianta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arvianta/asclepius-api-dicoding/issues"
+  },
+  "homepage": "https://github.com/arvianta/asclepius-api-dicoding#readme",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.21.1"
+  }
+}
