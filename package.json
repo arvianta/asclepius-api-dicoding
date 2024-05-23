@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   "homepage": "https://github.com/arvianta/asclepius-api-dicoding#readme",
   "description": "",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^3.21.1"
+    "@google-cloud/firestore": "^7.7.0",
+    "@hapi/hapi": "^21.3.9",
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "dotenv": "^16.4.5"
   }
 }
